@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>輪播圖系統展示頁面</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="kid-slider-container">
+        <div class="kid-item kid-active">
+            <img src="./img/shoes1.jpg" alt="">
+            <h1>New Baleace 復古款</h1>
+        </div>
+        <div class="kid-item">
+            <img src="./img/shoes2.jpg" alt="">
+            <h1>Nike 屁孩款</h1>
+        </div>
+        <div class="kid-item">
+            <img src="./img/shoes3.jpg" alt="">
+            <h1>Adidas 冬季綠款</h1>
+        </div>
+
+        <div id="kid-prev"></div>
+        <div id="kid-next"></div>
+
+        <div id="kid-button">
+            <span data-item="1" class="kid-active-button"></span>
+            <span data-item="2"></span>
+            <span data-item="3"></span>
+        </div>
+    </div>    
+    <script src="./script.js"></script>
+</body>
+</html>
